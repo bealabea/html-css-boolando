@@ -4,3 +4,78 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+    width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.price {
+    color: #ea0b46;
+    font-weight: 700;
+}
+
+span {
+    color: #929292;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.card {
+    display: inline-block;
+    width: calc(1200px/3 - 23px);
+    margin: 0px 10px;
+    position: relative;
+}
+
+.heart {
+    background: #fff;
+    font-size: 25px;
+    padding: 5px 15px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    z-index: 100;
+}
+
+.discount, .sustainability {
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 100;
+}
+
+.discount {
+    background: #ea0b46;
+    position: absolute;
+    bottom: 100px;
+}
+
+.sustainability{
+    background: #0aa270;
+    position: absolute;
+    left: 45px;
+    bottom: 100px;
+}
+
+.card .first-card-off {
+    width: 100%;
+}
+
+.first-card-on {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0px;
+}
+
+.card:hover .first-card-on {
+    display: inline-block;
+}
