@@ -9,6 +9,7 @@
     width: 1200px;
     background-color: #fff;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 h1 {
@@ -32,6 +33,7 @@ span {
     width: calc(1200px/3 - 23px);
     margin: 0px 10px;
     position: relative;
+    margin-top: 30px;
 }
 
 .heart {
@@ -63,6 +65,10 @@ span {
     position: absolute;
     left: 45px;
     bottom: 100px;
+}
+
+#tag-margin {
+    left: 0px;
 }
 
 .card .first-card-off {
