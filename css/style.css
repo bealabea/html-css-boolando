@@ -40,6 +40,7 @@ span {
     background: #fff;
     font-size: 25px;
     padding: 5px 15px;
+    border: none;
     position: absolute;
     right: 0px;
     top: 20px;
@@ -84,4 +85,13 @@ span {
 
 .card:hover .first-card-on {
     display: inline-block;
+}
+
+.heart:hover {
+    background: #f1326c;
+    color:#fff;
+}
+
+.heart:active {
+    font-size: 20px;
 }
